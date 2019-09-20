@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby 
+#!/usr/bin/env ruby
 require 'sqlite3'
 
 require_relative "../lib/interactive_record.rb"
@@ -13,4 +13,3 @@ student.save
 puts Student.find_by_name("Loki")
 
 # DB[:conn].execute("SELECT * FROM students")
-
