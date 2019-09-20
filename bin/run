@@ -13,4 +13,3 @@ student.save
 puts Student.find_by_name("Loki")
 
 # DB[:conn].execute("SELECT * FROM students")
-
