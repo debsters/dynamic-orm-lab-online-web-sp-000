@@ -3,7 +3,6 @@ require 'active_support/inflector'
 # require 'interactive_record.rb'
 require_relative "./interactive_record.rb"
 
-require 'pry'
 class Student < InteractiveRecord
 
   self.column_names.each do |col_name|
@@ -11,5 +10,4 @@ class Student < InteractiveRecord
   end
 
 end
-binding.pry
-0
+
